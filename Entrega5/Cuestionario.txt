@@ -1,0 +1,37 @@
+Telnet
+
+¿Cuáles son las ventajas y desventajas de utilizar el protocolo Telnet?
+
+    Ventajas: 
+    - Simplicidad
+    - Compatibilidad
+
+    Desventajas:
+    - Falta de seguridad
+    - Ausencia de autenticación sólida
+
+SSH
+
+¿Cuáles son las ventajas y desventajas de utilizar el protocolo SSH?
+
+    Ventajas: 
+    - Seguridad
+    - Autenticación mejorada
+
+    Desventajas:
+    - Configuración inicial más compleja
+    - Mayor consumo de recursos
+
+Diferencias entre SSH y Telnet:
+
+    - Seguridad:
+        SSH: SSH se enfoca en proporcionar una comunicación segura a través de técnicas de cifrado. Utiliza algoritmos criptográficos para proteger la confidencialidad e integridad de los datos transmitidos. Además, SSH utiliza autenticación sólida, lo que garantiza que solo los usuarios autorizados puedan acceder al sistema.
+        Telnet: Telnet carece de mecanismos de seguridad robustos. Los datos transmitidos a través de Telnet no están cifrados, lo que significa que pueden ser interceptados y leídos por atacantes. Además, Telnet ofrece una autenticación limitada, generalmente basada en un nombre de usuario y contraseña.
+
+    - Cifrado de datos:
+        SSH: SSH cifra los datos transmitidos entre el cliente y el servidor, lo que garantiza que la información enviada permanezca confidencial. Utiliza algoritmos de cifrado fuertes, como AES (Advanced Encryption Standard), para proteger la privacidad de los datos.
+        Telnet: Telnet no cifra los datos transmitidos. Todos los comandos, contraseñas y otra información se envían en texto sin formato, lo que hace que sea vulnerable a ataques de escucha y captura de paquetes.
+
+    - Características funcionales:
+        SSH: SSH es un protocolo más versátil que Telnet. Además de proporcionar acceso remoto a sistemas, también permite la transferencia segura de archivos (SFTP) y el reenvío seguro de puertos. También admite la ejecución de comandos remotos y la administración remota de sistemas.
+        Telnet: Telnet se centra principalmente en proporcionar acceso remoto a sistemas. No ofrece características adicionales, como la transferencia segura de archivos o el reenvío de puertos.
